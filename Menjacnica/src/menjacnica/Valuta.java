@@ -7,7 +7,7 @@ public class Valuta {
 	private String naziv;
 	private String skraceniNaziv;
 
-	private LinkedList<Kurs> kurs = new LinkedList<Kurs>();
+	LinkedList<Kurs> kurs = new LinkedList<Kurs>();
 
 	public String getNaziv() {
 		return naziv;
