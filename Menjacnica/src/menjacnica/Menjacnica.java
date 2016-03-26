@@ -12,7 +12,11 @@ public class Menjacnica implements menjacnicaInterfejs{
 	@Override
 	public void dodajKurs(Valuta valuta) {
 		
+		if(menjacnica.contains(valuta))
+			return;
 		
+		menjacnica.add(valuta);
+			
 	}
 
 	@Override
